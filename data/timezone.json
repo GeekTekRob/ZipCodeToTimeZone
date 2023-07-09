@@ -1,0 +1,193 @@
+{
+  "timezones": [
+    {
+      "id": 1,
+      "timezone": "America/New_York",
+      "timezone_name": "Eastern Standard Time",
+      "utc_offset": -5,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 2,
+      "timezone": "America/Kentucky/Louisville",
+      "timezone_name": "Eastern Standard Time",
+      "utc_offset": -5,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 3,
+      "timezone": "America/Detroit",
+      "timezone_name": "Eastern Standard Time",
+      "utc_offset": -5,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 4,
+      "timezone": "America/Indiana/Indianapolis",
+      "timezone_name": "Eastern Standard Time",
+      "utc_offset": -5,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 5,
+      "timezone": "America/Indiana/Winamac",
+      "timezone_name": "Eastern Standard Time",
+      "utc_offset": -5,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 6,
+      "timezone": "America/Indiana/Vevay",
+      "timezone_name": "Eastern Standard Time",
+      "utc_offset": -5,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 7,
+      "timezone": "America/Indiana/Marengo",
+      "timezone_name": "Eastern Standard Time",
+      "utc_offset": -5,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 8,
+      "timezone": "America/Indiana/Vincennes",
+      "timezone_name": "Eastern Standard Time",
+      "utc_offset": -5,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 9,
+      "timezone": "America/Indiana/Petersburg",
+      "timezone_name": "Eastern Standard Time",
+      "utc_offset": -5,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 10,
+      "timezone": "America/Kentucky/Monticello",
+      "timezone_name": "Eastern Standard Time",
+      "utc_offset": -5,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 11,
+      "timezone": "America/Chicago",
+      "timezone_name": "Central Standard Time",
+      "utc_offset": -6,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 12,
+      "timezone": "America/Indiana/Knox",
+      "timezone_name": "Central Standard Time",
+      "utc_offset": -6,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 13,
+      "timezone": "America/Indiana/Tell_City",
+      "timezone_name": "Central Standard Time",
+      "utc_offset": -6,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 14,
+      "timezone": "America/Menominee",
+      "timezone_name": "Central Standard Time",
+      "utc_offset": -6,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 15,
+      "timezone": "America/Indiana/Winamac",
+      "timezone_name": "Central Standard Time",
+      "utc_offset": -6,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 16,
+      "timezone": "America/North_Dakota/Center",
+      "timezone_name": "Central Standard Time",
+      "utc_offset": -6,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 17,
+      "timezone": "America/Shiprock",
+      "timezone_name": "Mountain Standard Time",
+      "utc_offset": -7,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 18,
+      "timezone": "America/Boise",
+      "timezone_name": "Mountain Standard Time",
+      "utc_offset": -7,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 19,
+      "timezone": "America/Phoenix",
+      "timezone_name": "Mountain Standard Time",
+      "utc_offset": -7,
+      "daylight_saving_time": false
+    },
+    {
+      "id": 20,
+      "timezone": "America/Denver",
+      "timezone_name": "Mountain Standard Time",
+      "utc_offset": -7,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 21,
+      "timezone": "America/Los_Angeles",
+      "timezone_name": "Pacific Standard Time",
+      "utc_offset": -8,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 22,
+      "timezone": "America/Anchorage",
+      "timezone_name": "Alaska Standard Time",
+      "utc_offset": -9,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 23,
+      "timezone": "America/Juneau",
+      "timezone_name": "Alaska Standard Time",
+      "utc_offset": -9,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 24,
+      "timezone": "America/Yakutat",
+      "timezone_name": "Alaska Standard Time",
+      "utc_offset": -9,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 25,
+      "timezone": "America/Nome",
+      "timezone_name": "Alaska Standard Time",
+      "utc_offset": -9,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 26,
+      "timezone": "America/Indiana/Vincennes",
+      "timezone_name": "Eastern Standard Time",
+      "utc_offset": -5,
+      "daylight_saving_time": true
+    },
+    {
+      "id": 27,
+      "timezone": "Pacific/Honolulu",
+      "timezone_name": "Hawaii-Aleutian Standard Time",
+      "utc_offset": -10,
+      "daylight_saving_time": false
+    }
+  ]
+}
