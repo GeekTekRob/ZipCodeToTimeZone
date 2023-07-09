@@ -39,7 +39,7 @@ In case you want to modify the python script or change the data, the exe file wa
 
 ## MIT License
 
-Copyright (c) 2022 Brandon Miller
+Copyright (c) 2023 Rob Hendrix
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
