@@ -1,3 +1,4 @@
+import os
 import json
 import tkinter as tk
 import tkinter.font as tkfont
@@ -5,9 +6,17 @@ from tkinter import messagebox
 from tkinter import ttk
 import pyperclip
 
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
+
 def get_timezone_data(zip_code):
     # Load the zip code data file
-    with open('./data/zipcode.json') as f:
+    with open(resource_path('./data/zipcode.json')) as f:
         zipcode_data = json.load(f)
 
     # Get the timezoneid from the zip code
@@ -21,7 +30,7 @@ def get_timezone_data(zip_code):
         return None
 
     # Load the timezone data file
-    with open('./data/timezone.json') as f:
+    with open(resource_path('./data/timezone.json')) as f:
         timezone_data = json.load(f)
 
     # Find the matching id for TimezoneId from zipcode file
@@ -110,8 +119,9 @@ def copy_to_csv():
 
 # Window Starts here
 window = tk.Tk()
-window.title("Timezone Lookup")
-window.geometry("500x400")  # Set the initial size of the window
+window.title("Zip Code to Timezone Lookup")
+window.geometry("400x325")
+window.eval('tk::PlaceWindow . center')
 
 label_zipcode = ttk.Label(window, text="Enter a zip code:")
 label_zipcode.pack()
@@ -126,7 +136,7 @@ info_frame = ttk.Frame(window)
 info_frame.pack(pady=10)
 
 # Image for Copy icon is pulled here
-copy_icon = tk.PhotoImage(file="./images/copy_icon.png")
+copy_icon = tk.PhotoImage(file=resource_path("./images/copy_icon.png"))
 
 # Copy to JSON
 button_copy_json = ttk.Button(window, text="Copy to JSON", command=copy_to_json, state='disabled')
